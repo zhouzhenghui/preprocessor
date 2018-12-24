@@ -1,0 +1,13 @@
+C Preprocessor Macros
+=====================
+
+Additional macros to BOOST preprocessor library, with support for preprocessor metaprogramming.
+
+- __PP_IS_BEGIN_PARENS() - Begin parentheses detect
+- __PP_IS_EMPTY() - Empty input detect
+- __PP_IS_NULL() - NULL detect
+- __PP_IS_SEQUENCE() - Boost PP sequence detect
+- __PP_IS_VOID_CAST() - (void *) cast detect
+- __PP_REMOVE_BEGIN_PARENS() - Remove parentheses at the beginning
+- __PP_REMOVE_PARENS() - Take the element enclosed in parentheses
+- __PP_VARIADIC_SIZE_OR_ZERO() - Arguments counting of variadic macro
