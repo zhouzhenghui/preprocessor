@@ -9,8 +9,9 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - name: install requirements
+    - name: apt update
       run: sudo apt-get update
+    - name: install requirements
       run: sudo apt-get install doxygen libboost-all-dev
     - name: autoconf
       run: ./autogen.sh
