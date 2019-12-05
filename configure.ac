@@ -13,6 +13,10 @@ AC_PROG_CC
 # Checks for libraries.
 
 # Checks for header files.
+AC_CHECK_HEADERS_ONCE([boost/preprocessor/debug/assert.hpp])
+if test "$ac_cv_header_boost_preprocessor_debug_assert_hpp" = "no"; then
+  AC_MSG_ERROR([*** boost preprocessor headers not found])
+fi
 
 # Checks for typedefs, structures, and compiler characteristics.
 
