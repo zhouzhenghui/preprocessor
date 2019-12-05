@@ -62,4 +62,7 @@ BOOST_PP_ASSERT(BOOST_PP_NOT(__PP_VARIADIC_SIZE_OR_ZERO(__PP_REMOVE_PARENS(())))
 BOOST_PP_ASSERT(BOOST_PP_NOT(__PP_VARIADIC_SIZE_OR_ZERO(__PP_REMOVE_PARENS((())))))
 #endif
 
-#error "This message tells that all tests are successful"
+int main()
+{
+  return 0;
+}
